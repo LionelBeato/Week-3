@@ -58,6 +58,17 @@ while (score_1 < 3 && score_2 < 3) {
         console.log(playerName_2+" has "+weaponOfChoice_2)
         console.log(playerName_2+" won this round with "+weaponOfChoice_2+" and has "+score_2+" points  \n")
     }
-    }
+
+    
+}
 
 console.log("The game is over!")
+
+if (score_1 === 3) {
+    console.log(playerName_1+" won!")
+     
+}
+
+else if (score_2 === 3) {
+    console.log(playerName_2+" won!")
+ }
