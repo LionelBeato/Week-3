@@ -1,12 +1,14 @@
-var course = {
+var billAmount = 100
 
-    name: "Full Stack Development",
-    attending: true,
-    teacher: "Mamadou",
-    main_computer: "Macbook",
+function gratuity(){
+    return billAmount *0.2
+    
+}
 
+console.log("$"+gratuity())
 
+function totalWithGrat(){
+    return billAmount + gratuity()
+}
 
-};
-
-console.log(course);
+console.log("you're total including gratuity: $"+totalWithGrat())
