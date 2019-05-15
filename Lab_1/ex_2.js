@@ -47,15 +47,11 @@ console.log(course.preReqs) // Spits out the pre-reqs
 console.log(course.preReqs.equipment.OSOptions[1]) //Spits out second OS option
 console.log(course.preReqs.equipment.OSOptions[0]+" or "+course.preReqs.equipment.OSOptions[1]) //Spits out all OS options 
 
+//Array of students
 
-for (var i = 0; i < course.students.length; i++){
-    var x = '0SX'
-
-    if (course.students[i].computer[x]){
-console.log(course.students[i].name+" has a "+course.students[i].computer.OS)
-
+for(var i = 0; i < course.students.length; i++){
+var x = course.students[i].computer.OS
+if(x === 'OSX'){
+console.log(course.students[i].name+" uses a "+x)
 }
 }
-
-    // array of students using OSX
-

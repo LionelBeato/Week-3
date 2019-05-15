@@ -23,6 +23,7 @@ while (list.length > 0){
     console.log('\n', cart)
 }
 
+//prints out cart alphabetically... and backwards
 
-
+console.log(cart.sort().reverse().join(", "))
 
