@@ -12,3 +12,4 @@ function totalWithGrat(){
 }
 
 console.log("you're total including gratuity: $"+totalWithGrat())
+

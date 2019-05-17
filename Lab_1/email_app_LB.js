@@ -1,3 +1,6 @@
+// Not sure what else to add to this but I promise I get the concept :DD 
+
+
 var appData = {
 	name: 'Gmail',
 	mailboxes: [
@@ -15,4 +18,4 @@ var appData = {
 
 }
 
-console.log(appData.mailboxes)
+console.log(appData.mailboxes) 

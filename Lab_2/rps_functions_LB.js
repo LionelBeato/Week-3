@@ -14,13 +14,13 @@ function gethand(){
 //player object with function
 
 var player1 = {
-    name:'Mike',
+    name:"Nana",
     score: 0,
  
 }
 
 var player2 = {
-    name: 'Jeremy',
+    name: "Popo",
     score: 0,
 
 }
@@ -77,10 +77,12 @@ function playRound(){
     }
 
     //function that actually plays the game :D
+    //I didn't add the players as arguments cuz I couldn't get it to work with my established work :DDD
     //this function runs until the inputed limit is reached and determines the winner
 
     function playGame(playUntil){
 
+     
         roundCount = 1;
         while (player1.score < playUntil && player2.score < playUntil) {
             console.log("round "+roundCount)
